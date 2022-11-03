@@ -297,6 +297,12 @@ OUR TEAM SECTION
   background-color: var(--secondary-bg-color);
 }
 
+.team-card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .text-title.team {
   margin-bottom: 50px;
 
@@ -312,6 +318,7 @@ OUR TEAM SECTION
 
 .team-wrapper {
   padding: 30px 0;
+  border-radius: 0px 0px 4px 4px;
 
   background-color: var(--primary-white-color);
 }
@@ -329,6 +336,40 @@ OUR TEAM SECTION
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+
+/* 
+=======================
+OUR CLIENT`S SECTION 
+=======================
+*/
+
+.text-title.clients {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent);
+  --items: 6;
+}
+
+.clients-link {
+  display: flex;
+  flex-basis: calc(
+    (100% - var(--indent) * (var(--items) - 1)) / (var(--items))
+  );
+  min-width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* 
@@ -355,6 +396,7 @@ PORTFOLIO STYLES
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  border-style: none;
   border-radius: 4px;
 }
 

@@ -16,8 +16,8 @@
 body {
   background-color: #ffffff;
   color: #757575;
-  font-family: Roboto, Verdana, sans-serif;
 
+  font-family: Roboto, Verdana, sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -181,6 +181,9 @@ HERO SECTION
 }
 
 .hero-text {
+  display: block;
+  margin-bottom: 30px;
+
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
@@ -189,12 +192,14 @@ HERO SECTION
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  display: block;
-  margin-bottom: 30px;
 }
 
 .button.primary {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 32px;
+  min-width: 216px;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-family: Roboto;
@@ -204,11 +209,6 @@ HERO SECTION
   line-height: 1.87;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  min-width: 216px;
-
-  display: block;
-  margin: 0 auto;
-  padding: 10px 32px;
 }
 
 .button.primary:hover,
@@ -253,12 +253,12 @@ CORPORATE VALUES
 }
 
 .text-title.values {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
-  margin-bottom: 10px;
 }
 
 .values-description {
@@ -279,12 +279,12 @@ What do we do? SECTION
 }
 
 .text-title.activity {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-
-  margin-bottom: 50px;
 }
 
 /* 
@@ -298,12 +298,12 @@ OUR TEAM SECTION
 }
 
 .text-title.team {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-
-  margin-bottom: 50px;
 }
 
 .team-list {
@@ -312,16 +312,17 @@ OUR TEAM SECTION
 
 .team-wrapper {
   padding: 30px 0;
+
   background-color: var(--primary-white-color);
 }
 
 .text-title.team-member {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-
-  margin-bottom: 10px;
 }
 
 .position-description {
@@ -344,6 +345,8 @@ PORTFOLIO STYLES
 }
 
 .filters-btn {
+  padding: 6px 22px;
+
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
   font-family: inherit;
@@ -353,8 +356,6 @@ PORTFOLIO STYLES
   line-height: 1.62;
   text-align: center;
   border-radius: 4px;
-
-  padding: 6px 22px;
 }
 
 .filters-btn:hover,
@@ -395,20 +396,21 @@ PORTFOLIO STYLES
 =================*/
 
 .footer {
-  background-color: var(--section-bg-color);
   padding: 60px 0;
+
+  background-color: var(--section-bg-color);
 }
 
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
   color: var(--primary-white-color);
 
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  display: block;
-  margin-bottom: 20px;
 }
 
 .footer-logo-web {
@@ -420,12 +422,12 @@ PORTFOLIO STYLES
 }
 
 .post-address {
+  display: inline-block;
+  margin-bottom: 9px;
+
   color: var(--primary-white-color);
   font-size: 14px;
   line-height: 1.71;
-
-  display: inline-block;
-  margin-bottom: 9px;
 }
 
 .footer-contacts-item:first-of-type {

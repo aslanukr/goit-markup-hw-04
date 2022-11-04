@@ -251,6 +251,22 @@ CORPORATE VALUES
   margin: -1px;
 }
 
+.values-icon-container {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+}
+
+.values-icon {
+  display: flex;
+  align-self: center;
+  margin: 0 auto;
+}
+
 .values-list {
   display: flex;
   flex-wrap: wrap;

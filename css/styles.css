@@ -8,6 +8,7 @@
   --primary-white-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --section-bg-color: #2f303a;
+  --socials-link-color: #afb1b8;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --indent: 30px;
   --items: 3;
@@ -251,7 +252,7 @@ CORPORATE VALUES
   margin: -1px;
 }
 
-.values-icon-container {
+.values-icon-thumb {
   display: flex;
   width: 270px;
   height: 120px;
@@ -365,9 +366,44 @@ OUR TEAM SECTION
 }
 
 .position-description {
+  margin-bottom: 16px;
+
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  background-color: var(--primary-white-color);
+
+  border-radius: 50%;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--accent-color);
+}
+
+.socials-icon {
+  fill: var(--socials-link-color);
+}
+
+.socials-icon:hover,
+.socials-icon:focus {
+  fill: var(--primary-white-color);
 }
 
 /* 

@@ -405,8 +405,11 @@ OUR TEAM SECTION
   fill: var(--socials-link-color);
 }
 
-.socials-icon:hover,
-.socials-icon:focus {
+.socials-link:hover > .socials-icon {
+  fill: var(--primary-white-color);
+}
+
+.socials-link:focus > .socials-icon {
   fill: var(--primary-white-color);
 }
 

@@ -453,10 +453,24 @@ OUR CLIENT`S SECTION
   fill: var(--socials-link-color);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.clients-link:hover > .clients-icon {
   fill: var(--accent-color);
 }
+
+.clients-link:focus > .clients-icon {
+  fill: var(--accent-color);
+}
+
+/* .clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
+} */
 
 /* 
 ======================
